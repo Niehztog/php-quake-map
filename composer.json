@@ -1,0 +1,33 @@
+{
+    "name": "niehztog/php-quake-map",
+    "description": "Parsing Quake Maps in PHP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Nils Gotzhein",
+            "email": "nilsgotzhein@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "QuakeMap\\": "src/QuakeMap/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Niehztog/Math_Vector"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Niehztog/Math_Plane"
+        }
+    ],
+    "require": {
+        "pear/Math_Vector": "dev-master",
+        "niehztog/math_plane": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
