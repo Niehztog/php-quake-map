@@ -35,7 +35,8 @@ class FileParser
      *
      * @param QuakeMap $quakeMap
      */
-    public function __construct(QuakeMap $quakeMap) {
+    public function __construct(QuakeMap $quakeMap)
+    {
         $this->map = $quakeMap;
     }
 
@@ -179,5 +180,4 @@ class FileParser
         $result->meaning = self::MEANING_PARSE_ERROR;
         return $result;
     }
-
 }

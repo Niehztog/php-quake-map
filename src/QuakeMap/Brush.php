@@ -60,8 +60,7 @@ class Brush
                                 $this->faceList[$j]->addVertex(clone $intersection);
                                 $this->faceList[$k]->addVertex(clone $intersection);
                             }
-                        }
-                        catch(\InvalidArgumentException $e) {
+                        } catch (\InvalidArgumentException $e) {
                             //no intersection - do nothing
                         }
                     }

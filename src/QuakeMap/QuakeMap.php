@@ -22,7 +22,8 @@ class QuakeMap
      *
      * @param Entity $entity
      */
-    public function addEntity(Entity $entity) {
+    public function addEntity(Entity $entity)
+    {
         $this->entityList[] = $entity;
     }
 
@@ -33,7 +34,8 @@ class QuakeMap
      * @param $fileName
      * @return QuakeMap
      */
-    public function load($fileName) {
+    public function load($fileName)
+    {
         $parser = new FileParser($this);
         $parser->load($fileName);
     }
@@ -54,5 +56,4 @@ class QuakeMap
             fwrite($handle, (string) $entity . PHP_EOL);
         }
     }
-
 }
