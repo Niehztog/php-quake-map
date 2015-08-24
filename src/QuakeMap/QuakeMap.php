@@ -55,5 +55,6 @@ class QuakeMap
             fwrite($handle, '// entity ' . $number . PHP_EOL);
             fwrite($handle, (string) $entity . PHP_EOL);
         }
+        echo sprintf('Successfully wrote map data to %1$s', $fileName).PHP_EOL;
     }
 }
