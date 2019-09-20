@@ -5,11 +5,11 @@ php-quake-map is a php composer package. It is developed for educational purpose
 ### Features ###
 
 * read in and parse Quake II map files
-* compute true polygon coordinates for every brush
+* compute the polygon coordinates for every brush
 * store the map data in PHP data structures
 * write a syntactically correct Quake II map file
 
-Current state of development: Parsing and writing map files work. Coordinates seem to be not 100% accurate, since many maps appear ***LEAKED***. Geometry looks fine however.
+Current state of development: Parsing and writing map files works. Coordinates seem to be not 100% accurate, since many maps appear ***LEAKED***. Geometry looks fine however.
 
 ### Useful links: ###
 * https://github.com/stefanha/map-files/blob/master/MAPFiles.pdf
